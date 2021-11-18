@@ -19,6 +19,7 @@ nav {
 	background:#0082e6;
 	height:60px;
 	width:100%;
+	z-index: 99999;
 	position:sticky;
 }
 
