@@ -30,7 +30,50 @@
     input{
       margin-bottom: 5px;
     }
-  </style>
+  
+    
+     .rounded-circle{
+    
+    width:50px;
+    height:50px;
+    text-align:center;
+    display:flex;
+    column-count:1;
+    left:25%;
+    
+    animation:move 3s linear infinite;
+    animation-direction:alternate;
+    
+    z-index:99;
+    
+ }
+      
+      
+      @keyframes move{
+    from{
+    padding-left:50px;
+    padding-top:50px;
+    opacity:.7;
+    
+    }
+    to{padding-left:150px;
+    padding-top:150px;
+    opacity:1;
+    }
+    
+    }   
+   .bb{
+    height:50vh;
+    border:2px solid blue;
+    padding:20%;
+    width:100%;
+    align-items:center;
+    justify-content:center;
+    display:flex;
+    background-color:green;
+    }
+    </style>
+  
   </head>
   <body>
     <input type="button"  class="btn btn-danger m-auto p-auto" id="back" value="back"/> 
@@ -50,6 +93,14 @@
     </div>
     
     </section>
+    
+    
+
+  <div class="bb" >
+ 	 <div class=" bg-warning text-center mx-5 my-5 rounded-circle"><br></div>
+  </div>
+    
+    
     <script>
       $(document).ready(function(){
         $('.smt').click(function(){
