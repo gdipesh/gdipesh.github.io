@@ -152,3 +152,8 @@ span:nth-child(16){
   bottom: 145px;
   animation-delay: 1.8s;
 }
+a{
+  display: flex;
+  align-content: center ;
+  align-items: center;
+}
