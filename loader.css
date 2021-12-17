@@ -29,7 +29,7 @@ span{
   position: absolute;
   box-sizing: border-box;
   
-  animation: animate 1s ease-in-out infinite;
+  animation: animate 2s ease-in-out infinite;
 }
 @keyframes animate{
   0%,100%{
